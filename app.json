@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/index",
+    "pages/trace/index",
+    "pages/user/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "物物地图",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#99999",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "image/tabbar/a-off.png",
+        "selectedIconPath":"image/tabbar/a-on.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "发现",
+        "iconPath": "image/tabbar/b-off.png",
+        "selectedIconPath":"image/tabbar/b-on.png"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "text": "购物车",
+        "iconPath": "image/tabbar/sp02.png",
+        "selectedIconPath":"image/tabbar/sp02.png"
+      },
+      {
+        "pagePath": "pages/trace/index",
+        "text": "溯源",
+        "iconPath": "image/tabbar/d-off.png",
+        "selectedIconPath":"image/tabbar/d-on.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "image/tabbar/e-off.png",
+        "selectedIconPath":"image/tabbar/e-on.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

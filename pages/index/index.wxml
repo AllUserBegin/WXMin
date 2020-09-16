@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="ad01">
+	<image mode="widthFix" class="ad01-img" src="/image/ad/ad01.png"></image>
+</view>
+<view>
+	<swiper indicator-dots="{{indicatorDots}}" style="height: 120px;" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+		<block wx:for="{{imgUrls}}">
+			<swiper-item>
+				<image mode="widthFix" class="ad01-img" src="{{item}}" />
+			</swiper-item>
+		</block>
+	</swiper>
+</view>
