@@ -11,3 +11,37 @@
 		</block>
 	</swiper>
 </view>
+<view class="menu">
+	<navigator url="" 	class="menu-item">
+		<image src="/image/tabbar/a-on.png" mode="widthFix" class="menu-img"></image>
+		<text class="menu-mc">品牌大全</text>
+	</navigator>
+	<navigator url="" 	class="menu-item">
+		<image src="/image/tabbar/a-on.png" mode="widthFix" class="menu-img"></image>
+		<text class="menu-mc">品牌大全</text>
+	</navigator>
+	<navigator url="" 	class="menu-item">
+		<image src="/image/tabbar/a-on.png" mode="widthFix" class="menu-img"></image>
+		<text class="menu-mc">品牌大全</text>
+	</navigator>
+	<navigator url="" 	class="menu-item">
+		<image src="/image/tabbar/a-on.png" mode="widthFix" class="menu-img"></image>
+		<text class="menu-mc">品牌大全</text>
+	</navigator>
+	<navigator url="" 	class="menu-item">
+		<image src="/image/tabbar/a-on.png" mode="widthFix" class="menu-img"></image>
+		<text class="menu-mc">品牌大全</text>
+	</navigator>
+	<navigator url="" 	class="menu-item">
+		<image src="/image/tabbar/a-on.png" mode="widthFix" class="menu-img"></image>
+		<text class="menu-mc">品牌大全</text>
+	</navigator>
+	<navigator url="" 	class="menu-item">
+		<image src="/image/tabbar/a-on.png" mode="widthFix" class="menu-img"></image>
+		<text class="menu-mc">品牌大全</text>
+	</navigator>
+	<navigator url="" 	class="menu-item">
+		<image src="/image/tabbar/a-on.png" mode="widthFix" class="menu-img"></image>
+		<text class="menu-mc">品牌大全</text>
+	</navigator>
+</view>

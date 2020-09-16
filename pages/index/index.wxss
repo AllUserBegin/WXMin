@@ -5,3 +5,28 @@
  .ad01-img {
    width: 100%
  }
+
+ .menu{
+   display:flex;
+   flex-wrap:  wrap;
+   border-bottom: 1px solid gainsboro;
+ }
+ .menu-item
+ {
+   width: 25%;
+   padding: 5px;
+   display: flex;
+   box-sizing: border-box;
+   justify-self: center;
+   flex-direction: column;
+ }
+ .menu-img
+ {
+   width: 60%;
+   align-self:center;
+ }
+ .menu-mc
+  {
+   font-size: 14px;
+   align-self:center;
+ }
