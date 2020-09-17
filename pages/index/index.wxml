@@ -54,13 +54,43 @@
 	<text class="t01">优质商家推荐</text>
 	<view class="m01">更多</view>
 </view>
- <block wx:for="{{imgUrls}}">
-<navigator url="{{item}}" class="zuixin-item">
-	<image src="{{item}}" mode="widthFix" class="zuxin-img"></image>
-	<text class="zuxin-mc">产品名称</text>
-	<view>
-		<text class="zuxin-jiae0">￥</text>
-		<text class="zuxin-jiage1">166.00</text>
-	</view>
-</navigator>  
-</block>
+<view class="zuixin">
+	<block wx:for="{{topUrls}}">
+		<navigator url="{{item}}" class="zuixin-item">
+			<image src="{{item}}" mode="widthFix" class="zuxin-img"></image>
+			<text class="zuxin-mc">产品名称</text>
+			<view>
+				<text class="zuxin-jiae0">￥</text>
+				<text class="zuxin-jiage1">166.00</text>
+			</view>
+		</navigator>
+	</block>
+</view>
+<view class="qukuai">
+	<view class="y01"></view>
+	<text class="t01">附近</text>
+</view>
+<view>
+	<block wx:for="{{nearUrls}}">
+		<navigator url="{{item}}" class="fujin-item">
+			<view>
+				<image src="{{item}}" mode="widthFix" class="fujin-img"></image>
+			</view>
+			<view class="fujin-xinxi">
+				<text class="fujin-type">股份</text>
+				<text class="fujin-proname">思明便利店</text>
+				<view>
+				<text class="fujin-star"></text>
+				</view>
+			</view>
+			<view style="">
+
+			</view>
+			<!-- <text class="zuxin-mc">产品名称</text>
+			<view>
+				<text class="zuxin-jiae0">￥</text>
+				<text class="zuxin-jiage1">166.00</text>
+			</view> -->
+		</navigator>
+	</block>
+</view>

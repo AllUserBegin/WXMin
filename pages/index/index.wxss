@@ -2,17 +2,19 @@
    box-shadow: 0px 2px 2px gainsboro;
    margin: 4px
  }
+
  .ad01-img {
    width: 100%
  }
 
- .menu{
-   display:flex;
-   flex-wrap:  wrap;
+ .menu {
+   display: flex;
+   flex-wrap: wrap;
    border-bottom: 1px solid gainsboro;
+   margin-top: 10px;
  }
- .menu-item
- {
+
+ .menu-item {
    width: 20%;
    padding: 5px;
    display: flex;
@@ -20,77 +22,118 @@
    justify-self: center;
    flex-direction: column;
  }
- .menu-img
- {
+
+ .menu-img {
    width: 60%;
-   align-self:center;
+   align-self: center;
  }
- .menu-mc
-  {
+
+ .menu-mc {
    font-size: 14px;
-   align-self:center;
+   align-self: center;
  }
 
-.qukuai
-{
-  display: flex;
-  background-color: aliceblue;
-  align-items: center;
-}
-.y01{
-width: 3px; height: 18px;
---background-color: green;
-margin: 15px 5px 5px 0px;
-box-shadow: 2px 2px 2px gainsboro; 
-}
-.t01
-{
- color: gray;
- flex-grow: 1;
- text-shadow:  1px 1px 1px gainsboro; 
-}
-.m01
-{
-color:gray;
-margin-right: 10px;
-text-shadow: 2px 2px 2px gainsboro;
-}
+ .qukuai {
+   display: flex;
+   background-color: aliceblue;
+   align-items: center;
+ }
 
-.zuixin
-{
-  display: flex;
-  flex-wrap: wrap;
-}
-.zuixin-item
-{
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  padding: 5px;
-  box-sizing: border-box;
-  border: 1px dotted gainsboro;
-  margin-top: 2px;
-}
-.zuxin-img
-{
-  width: 100%;
-  border: 1px solid #fcfafa;
-  border-radius: 5px;
-  box-shadow: 0px 2px 2px gainsboro;
-}
-.zuxin-mc
-{
-  font-size: 13px;
-  padding: 3px;
-}
-.zuxin-jiae0
-{
-  font-size: 12px;
-  color: red;
-}
-.zuxin-jiage1
-{
-  font-size: 14px;
-  color: red;
-}
- 
+ .y01 {
+   width: 3px;
+   height: 18px;
+   --background-color: green;
+   margin: 25px 5px 5px 0px;
+   box-shadow: 2px 2px 2px gainsboro;
+ }
+
+ .t01 {
+   color: RoyalBlue;
+   flex-grow: 1;
+   text-shadow: 1px 1px 1px gainsboro;
+ }
+
+ .m01 {
+   color: gray;
+   margin-right: 10px;
+   text-shadow: 2px 2px 2px gainsboro;
+ }
+
+ .zuixin {
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ .zuixin-item {
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   padding: 2px;
+   box-sizing: border-box;
+   border: 1px dotted gainsboro;
+ }
+
+ .zuxin-img {
+   width: 100%;
+   height: 99%;
+   border-radius: 5px;
+   border: 1px solid #fcfafa;
+   box-shadow: 0px 2px 2px gainsboro;
+ }
+
+ .zuxin-mc {
+   font-size: 13px;
+   padding: 3px;
+ }
+
+ .zuxin-jiae0 {
+   font-size: 12px;
+   color: red;
+ }
+
+ .zuxin-jiage1 {
+   font-size: 14px;
+   color: red;
+ }
+
+
+ .fujin {
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ .fujin-item {
+   width: 100%;
+   height: 120px;
+   display: flex;
+   flex-direction: row;
+   /* padding: 2px; */
+   box-sizing: border-box;
+   border-bottom: 1px dotted gainsboro;
+
+ }
+
+ .fujin-img {
+   width: 100px;
+   height: 100px;
+   border-radius: 8px;
+   margin: 10px 0px 10px 10px;
+ }
+
+ .fujin-type {
+   font-size: 10px;
+   color: white;
+   background-color: red;
+   margin-left: 10px;
+ }
+
+ .fujin-proname {
+   font-size: 14px;
+   font-weight: bold;
+   margin-left: 5px;
+ }
+
+ .fujin-star {
+   width: 12px;
+   height: 12px
+ }
