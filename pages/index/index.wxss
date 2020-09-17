@@ -13,7 +13,7 @@
  }
  .menu-item
  {
-   width: 25%;
+   width: 20%;
    padding: 5px;
    display: flex;
    box-sizing: border-box;
@@ -30,3 +30,67 @@
    font-size: 14px;
    align-self:center;
  }
+
+.qukuai
+{
+  display: flex;
+  background-color: aliceblue;
+  align-items: center;
+}
+.y01{
+width: 3px; height: 18px;
+--background-color: green;
+margin: 15px 5px 5px 0px;
+box-shadow: 2px 2px 2px gainsboro; 
+}
+.t01
+{
+ color: gray;
+ flex-grow: 1;
+ text-shadow:  1px 1px 1px gainsboro; 
+}
+.m01
+{
+color:gray;
+margin-right: 10px;
+text-shadow: 2px 2px 2px gainsboro;
+}
+
+.zuixin
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.zuixin-item
+{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 1px dotted gainsboro;
+  margin-top: 2px;
+}
+.zuxin-img
+{
+  width: 100%;
+  border: 1px solid #fcfafa;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px gainsboro;
+}
+.zuxin-mc
+{
+  font-size: 13px;
+  padding: 3px;
+}
+.zuxin-jiae0
+{
+  font-size: 12px;
+  color: red;
+}
+.zuxin-jiage1
+{
+  font-size: 14px;
+  color: red;
+}
+ 

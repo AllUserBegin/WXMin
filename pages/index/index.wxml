@@ -1,7 +1,7 @@
 <!--index.wxml-->
-<view class="ad01">
+<!-- <view class="ad01">
 	<image mode="widthFix" class="ad01-img" src="/image/ad/ad01.png"></image>
-</view>
+</view> -->
 <view>
 	<swiper indicator-dots="{{indicatorDots}}" style="height: 120px;" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
 		<block wx:for="{{imgUrls}}">
@@ -12,36 +12,55 @@
 	</swiper>
 </view>
 <view class="menu">
-	<navigator url="" 	class="menu-item">
-		<image src="/image/tabbar/a-on.png" mode="widthFix" class="menu-img"></image>
-		<text class="menu-mc">品牌大全</text>
+	<navigator url="" class="menu-item">
+		<image src="/image/home/1.png" mode="widthFix" class="menu-img"></image>
+		<text class="menu-mc">自营分类</text>
 	</navigator>
-	<navigator url="" 	class="menu-item">
-		<image src="/image/tabbar/a-on.png" mode="widthFix" class="menu-img"></image>
-		<text class="menu-mc">品牌大全</text>
+	<navigator url="" class="menu-item">
+		<image src="/image/home/2.png" mode="widthFix" class="menu-img"></image>
+		<text class="menu-mc">优选商城</text>
 	</navigator>
-	<navigator url="" 	class="menu-item">
-		<image src="/image/tabbar/a-on.png" mode="widthFix" class="menu-img"></image>
-		<text class="menu-mc">品牌大全</text>
+	<navigator url="" class="menu-item">
+		<image src="/image/home/3.png" mode="widthFix" class="menu-img"></image>
+		<text class="menu-mc">京东省钱</text>
 	</navigator>
-	<navigator url="" 	class="menu-item">
-		<image src="/image/tabbar/a-on.png" mode="widthFix" class="menu-img"></image>
-		<text class="menu-mc">品牌大全</text>
+	<navigator url="" class="menu-item">
+		<image src="/image/home/4.png" mode="widthFix" class="menu-img"></image>
+		<text class="menu-mc">车主省钱</text>
 	</navigator>
-	<navigator url="" 	class="menu-item">
-		<image src="/image/tabbar/a-on.png" mode="widthFix" class="menu-img"></image>
-		<text class="menu-mc">品牌大全</text>
+	<navigator url="" class="menu-item">
+		<image src="/image/home/5.png" mode="widthFix" class="menu-img"></image>
+		<text class="menu-mc">携程旅行</text>
 	</navigator>
-	<navigator url="" 	class="menu-item">
-		<image src="/image/tabbar/a-on.png" mode="widthFix" class="menu-img"></image>
-		<text class="menu-mc">品牌大全</text>
+	<navigator url="" class="menu-item">
+		<image src="/image/home/6.png" mode="widthFix" class="menu-img"></image>
+		<text class="menu-mc">人气榜</text>
 	</navigator>
-	<navigator url="" 	class="menu-item">
-		<image src="/image/tabbar/a-on.png" mode="widthFix" class="menu-img"></image>
-		<text class="menu-mc">品牌大全</text>
+	<navigator url="" class="menu-item">
+		<image src="/image/home/7.png" mode="widthFix" class="menu-img"></image>
+		<text class="menu-mc">配置会</text>
 	</navigator>
-	<navigator url="" 	class="menu-item">
-		<image src="/image/tabbar/a-on.png" mode="widthFix" class="menu-img"></image>
-		<text class="menu-mc">品牌大全</text>
+	<navigator url="" class="menu-item">
+		<image src="/image/home/8.png" mode="widthFix" class="menu-img"></image>
+		<text class="menu-mc">程序源</text>
+	</navigator>
+	<navigator url="" class="menu-item">
+		<image src="/image/home/9.png" mode="widthFix" class="menu-img"></image>
+		<text class="menu-mc">推荐</text>
 	</navigator>
 </view>
+<view class="qukuai">
+	<view class="y01"></view>
+	<text class="t01">优质商家推荐</text>
+	<view class="m01">更多</view>
+</view>
+ <block wx:for="{{imgUrls}}">
+<navigator url="{{item}}" class="zuixin-item">
+	<image src="{{item}}" mode="widthFix" class="zuxin-img"></image>
+	<text class="zuxin-mc">产品名称</text>
+	<view>
+		<text class="zuxin-jiae0">￥</text>
+		<text class="zuxin-jiage1">166.00</text>
+	</view>
+</navigator>  
+</block>

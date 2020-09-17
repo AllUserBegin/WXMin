@@ -9,6 +9,7 @@ Page({
       'http://wuwuditu.img-cn-hangzhou.aliyuncs.com/cms/20200915/84ef4642b4df467d898c26e17b47add0.jpg',
       'http://wuwuditu.img-cn-hangzhou.aliyuncs.com/cms/20200915/f918fb4d3c0d483e8320cb4a8fafbc4a.jpg',
       'http://wuwuditu.img-cn-hangzhou.aliyuncs.com/cms/20200915/f5ffbcd08cd0468197f3bc593dec0fa9.jpg',
+      'http://wuwuditu.img-cn-hangzhou.aliyuncs.com/cms/20200915/46c1653d986c43b283d6ccbe270e360e.jpg'
     ],
     indicatorDots: true,
     autoplay: true,
